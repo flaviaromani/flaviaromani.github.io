@@ -1,0 +1,39 @@
+<div class="pattern"> <p class="pattern-container" id="pattern-container-illustration"> </p> <img src="./images/illustration/iconsillustration.818292fd.png" id="top-right-icon" style="position:fixed; opacity:0.9; top:140px; right: 0px; margin-right:50px"> </div> <div class="row content animated fadeIn"> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-6 col-lg-offset-1"> <div class="img-container illustration"> <img src="../images/illustration/mara...villa.7828cbda.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-4 col-lg-offset-0" class="blurb"> <h3>MARA...VILLA</h3> <p>«Mara» was the nickname given to Frida Kahlo by her lover, the catalan painter José Bartoli. His inspiration came from hindu mythology, where Mara is the Goddess of desire, temptation and seduction. Frida added «villa» to her nickname, in order to make others believe that «Mara» was the abrreviation of «Maravilla» (wonder).</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-5 col-lg-offset-1"> <div class="img-container illustration"> <img src="../images/illustration/dali.217715bd.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-5 col-lg-offset-0" class="blurb"> <h3>DALÍ</h3> <p>«I am not strange. I am just not normal.» – Salvador Dalí</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-7 col-lg-offset-1"> <div class="img-container illustration"> <img src="../images/illustration/la_dolce_vita.27a9288d.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-3 col-lg-offset-0" class="blurb"> <h3>MARCELLO</h3> <p>«Sei la madre, la sorella, l’amante, l’amica, l’angelo, il diavolo, la terra, la casa…» - La Dolce Vita, Federico Fellini</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-6 col-lg-offset-1"> <div class="img-container illustration"> <img src="../images/illustration/breathless.20c0d3e7.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-4 col-lg-offset-0" class="blurb"> <h3>BREATHLESS</h3> <p>«I’m shutting my eyes tight so everything goes black.» – Breathless, Jean-Luc Godard</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-7 col-lg-offset-1"> <div class="img-container illustration"> <img src="../images/illustration/metropolis.4f6c8ac6.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-3 col-lg-offset-0" class="blurb"> <h3>METROPOLIS</h3> <p>«Death to the machines!» – Metropolis, Fritz Lang</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-6 col-lg-offset-1"> <div class="img-container illustration" style="border: 2px solid #ddd"> <img src="../images/illustration/gun_control.7e3d815a.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-4 col-lg-offset-0" class="blurb"> <h3>GUN CONTROL</h3> <p>«The gun lobby may be holding Congress hostage right now, but they do not have to hold America hostage.» – Barack Obama</p> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-6 col-lg-offset-1"> <div class="img-container illustration" style="border: 2px solid #ddd"> <img src="../images/illustration/trouble_in_paradise.ec8e2746.png" class="img-responsive" width="100%"> </div> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-4 col-lg-offset-0" class="blurb"> <h3>TROUBLE IN PARADISE</h3> </div> </div> <div class="row illustration"> <div class="col-xs-8 col-xs-offset-1 col-lg-6 col-lg-offset-1"> <ul id="vertical"> <li data-thumb="../images/illustration/at_the_gym_I.cd533314.png"> <img src="../images/illustration/at_the_gym_I.cd533314.png" class="img-responsive" width="100%" style="border: 2px solid #ddd"> </li> <li data-thumb="../images/illustration/at_the_gym_II_reading_the_news.7a899945.png"> <img src="../images/illustration/at_the_gym_II_reading_the_news.7a899945.png" class="img-responsive" width="100%" style="border: 2px solid #ddd"> </li> <li data-thumb="../images/illustration/at_the_gym_III.4bffac87.png"> <img src="../images/illustration/at_the_gym_III.4bffac87.png" class="img-responsive" width="100%" style="border: 2px solid #ddd"> </li> </ul> </div> <div class="col-xs-8 col-xs-offset-1 col-lg-4 col-lg-offset-0" class="blurb"> <h3>AT THE GYM</h3> <p>Funny encounters of women at the gym.</p> </div> </div> </div> <script>$(document).ready(function() {
+		$('#vertical').lightSlider({
+	        gallery:true,
+	        adaptiveHeight:true,
+	        loop:true,
+	        auto:true,
+	        pauseOnHover:true,
+	        pause:4000,
+	        slideMove:1,
+	        adaptiveHeight:true,
+	        item:1,
+	        thumbItem:7,
+	        slideMargin:0,
+	        enableDrag: false,
+	        currentPagerPosition:'left',
+	        prevHtml:"<h1>«</h1>",
+	        nextHtml:"<h1>»</h1>"
+	    });  
+	  });
+
+
+	$( document ).ready(function() {
+	  	var pattern_container_length = $('#pattern-container-illustration').width();
+	  	var width_of_element = 60;
+	  	var numOfElements = pattern_container_length / width_of_element;
+	  	for (var i=0; i<numOfElements-2; i++) {
+	  		$('#pattern-container-illustration').append('<span><img src="../images/illustration/svg3.97884f1a.svg" id="marker1" width="60px"/></span>');
+	  	}
+	});
+
+	$( window ).resize(function() {
+		$('#pattern-container-illustration span').remove();
+	  	var pattern_container_length = $('#pattern-container-illustration').width();
+	  	var width_of_element = 60;
+	  	var numOfElements = pattern_container_length / width_of_element;
+	  	for (var i=0; i<numOfElements-2; i++) {
+	  		$('#pattern-container-illustration').append('<span><img src="../images/illustration/svg3.97884f1a.svg" id="marker1" width="60px"/></span>');
+	  	}
+	});</script>

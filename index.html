@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-* {
-	font-family: helvetica;
-	font-weight: 200;
-	color: #333;
-}
-div {
-	text-align: center;
-}
-</style>
-</head>
-<body>
-<div>
-<h1 style="margin-top:200px">Hello world!</h1>
-<p>This is Flavia.</p><br><br><br><br><br><br>
-<p style="font-size:12px">---</p>
-<p style="font-size:12px">work in progress</p>
-<p style="font-size:12px">---</p>
-</div>
-</body>
-</html>
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.bb966f3e.css"> <link rel="stylesheet" href="styles/main.c2220d21.css">  <body ng-app="frbApp" ng-controller="OverallCtrl"> <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid"> <div class="sidebar logo" ng-cloak ng-hide="currentPath === '/'" ng-hide="currentPath === '#/'"> <a href="#/"><img src="images/logo.49892781.png" id="logo"></a> </div> <div class="sidebar menu" ng-cloak ng-hide="currentPath === '/'" ng-hide="currentPath === '#/'"> <ul class="nav nav-stacked menu"> <li role="presentation" ng-class="{ active: isActive(['/film']) }" id="menu-item-1"> <a href="#/film"> film <span><img src="./images/film/svg1.f7a40dca.svg" class="marker" id="marker1"></span></a> </li> <li role="presentation" ng-class="{ active: isActive(['/photography']) }" id="menu-item-2"> <a href="#/photography"> photography <span><img src="./images/photography/svg2.2de28a3a.svg" class="marker" id="marker2"></span></a> </li> <li role="presentation" ng-class="{ active: isActive(['/illustration']) }" id="menu-item-3"> <a href="#/illustration"> illustration <span><img src="./images/illustration/svg3.97884f1a.svg" class="marker" id="marker3"></span></a></li> <li role="presentation" ng-class="{ active: isActive(['/branding']) }" id="menu-item-4"> <a href="#/branding"> branding <span><img src="./images/branding/svg4.bbf05f2d.svg" class="marker" id="marker4"></span></a> </li> <!--           <li role="presentation" ng-class="{ active: isActive(['/about']) }" id="menu-item-5">
+            <a href="#/about"> about <span><img src='./images/about/svg5.a0d7d995.svg' class="marker" id='marker5'/></span></a>
+          </li> --> <li role="presentation" ng-class="{ active: isActive(['/contact']) }" id="menu-item-6"> <a href="#/contact"> contact <span><img src="./images/contact/svg6.106e28f7.svg" class="marker" id="marker6"></span></a> </li> <li role="presentation" id="menu-item-social" style="margin-left:10px; margin-top:15px"> <span><a href="https://twitter.com/flaviaromani20?lang=en" target="_blank" class="social hvr-wobble-vertical"><img src="./images/twitter.233dd641.png" width="18px"></a></span> <span><a href="https://www.instagram.com/flaviaromani/" target="_blank" class="social hvr-wobble-vertical"><img src="./images/instagram.a65fd157.png" width="18px"></a></span> <span><a href="https://www.linkedin.com/in/flavia-romani-7608602a?authType=NAME_SEARCH&authToken=jK94&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A103639608%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1453605799742%2Ctas%3Aflavia%20rom" target="_blank" class="social hvr-wobble-vertical"><img src="./images/linkedin.063ebb58.png" width="24px" style="margin-left:-3px"></a></span> </li> </ul> </div> <div class="row"> <div class="col-xs-8 col-xs-offset-4 col-sm-9 col-sm-offset-3"> <div class="main"> <div ng-view="" autoscroll="true"></div> </div> </div> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');</script> <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]--> <script src="scripts/vendor.f6ed3297.js"></script> <script src="scripts/scripts.c70080f5.js"></script>  

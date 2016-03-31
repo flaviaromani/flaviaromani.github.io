@@ -1,0 +1,18 @@
+<div class="pattern"> <p class="pattern-container" id="pattern-container-contact"> </p> <img src="./images/contact/iconcontact.6a32c03f.png" id="top-right-icon" style="position:fixed; opacity:0.9; top:140px; right: 0px; margin-right:50px"> </div> <div class="row content animated fadeIn"> <div class="row" style="text-align: center; margin-top: -30px; margin-bottom: 50px"> <div class="col-xs-7 col-xs-offset-2" class="blurb"> <p>Co-founder and Creative Director at <a href="www.viceversa-mag.com">ViceVersa Magazine</a> by day ☀ <br>Film Editor and Illustrator by night ☾</p> <p>I'm a Venezuelan/Italian, based in New York, and always on the lookout for inspiring projects and collaborations.</p> <p>Let's get in touch - drop me a line at <br> <a href="mailto:f.romani@viceversa-mag.com" target="_top">f.romani@viceversa-mag.com</a></p> <hr> <img src="../images/contact/flaviaromani.2912eb37.png" style="width:80%" alt="Flavia Romani"> </div> </div> </div> <script>$( document ).ready(function() {
+	  	var pattern_container_length = $('#pattern-container-contact').width();
+	  	var width_of_element = 60;
+	  	var numOfElements = pattern_container_length / width_of_element;
+	  	for (var i=0; i<numOfElements-2; i++) {
+	  		$('#pattern-container-contact').append('<span><img src="../images/contact/svg6.106e28f7.svg" id="marker6" width="60px"/></span>');
+	  	}
+	});
+
+	$( window ).resize(function() {
+		$('#pattern-container-contact span').remove();
+	  	var pattern_container_length = $('#pattern-container-contact').width();
+	  	var width_of_element = 60;
+	  	var numOfElements = pattern_container_length / width_of_element;
+	  	for (var i=0; i<numOfElements-2; i++) {
+	  		$('#pattern-container-contact').append('<span><img src="../images/contact/svg6.106e28f7.svg" id="marker6" width="60px"/></span>');
+	  	}
+	});</script>
